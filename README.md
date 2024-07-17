@@ -4,6 +4,7 @@
 
 ## ---- API_OPPORTUNITIES ----
 Este projeto contém a implementação de uma API de oportunidades de emprego completa, com endpoints para busca, criação, edição e exclusão de oportunidades, realizada em Golang. O projeto está todo estruturado e documentado, nele utilizei algumas bibliotecas como Gin, Swagger, GoORM e SQLite.
+Para a utilização da API você deve ter o GCC instalado na sua máquina. O Swagger está totalmente funcional e pode ser utilizado para testar a aplicação.
 
 - Utilização do Go-Gin como router para gerenciamento de rotas
 - Implementação do SQLite como banco de dados na API
