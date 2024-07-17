@@ -11,3 +11,9 @@ Este projeto contém a implementação de uma API de oportunidades de emprego co
 - Integração do Swagger para documentação e teste da API
 - Criação de uma estrutura moderna de packages para organização do projeto
 - Implementação de testes automatizados para garantir a qualidade da API
+
+## ---- REST_API ----
+Funções básicas para criação de uma API básica em Golang utilizando o Gin.
+
+## ---- BOOKING ----
+API para reservas de quartos em um hotel. Realizada em Golang apenas com os pacotes padrões do Go.
