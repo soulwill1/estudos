@@ -8,6 +8,20 @@ import (
 	"github.com/soulwill1/estudos/schemas"
 )
 
+// @BasePath /api/v1
+
+// @Summary delete opening
+// @Description delete a new job opening
+// @Tags openings
+// @Accept json
+// @Produce json
+// @Param id query string true "Opening identification"
+// @Sucess 200 {object} DeleteOpeningResponse
+// @Failure 400 {object} ErrorResponse
+// @Failure 400 {object} ErrorResponse
+// @Failure 404 {object} ErrorResponse
+// @Router /opening [delete]
+
 func DeleteOpeningHandler(ctx *gin.Context) {
 	id := ctx.Query("id")
 	if id == "" {
