@@ -7,6 +7,20 @@ import (
 	"github.com/swaggo/gin-swagger" // gin-swagger middleware
 	"github.com/swaggo/swag/example/basic/docs"
 )
+// @BasePath /api/v1
+
+// @Summary create opening
+// @Description create a new job opening
+// @Tags openings
+// @Accept json
+// @Produce json
+// @Param request body CreateOpeningRequest true "Request body"
+// @Sucess 200 {object} CreateOpeningResponse
+// @Failure 400 {object} ErrorResponse
+// @Failure 400 {object} ErrorResponse
+// @Failure 500 {object} ErrorResponse
+// @Router /opening [post]
+ 
 
 func initializeRoutes(router *gin.Engine) {
 	// Initiliaze handler
