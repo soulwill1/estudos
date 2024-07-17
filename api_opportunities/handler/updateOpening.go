@@ -7,6 +7,21 @@ import (
 	"github.com/soulwill1/estudos/schemas"
 )
 
+// @BasePath /api/v1
+
+// @Summary update opening
+// @Description update a job opening
+// @Tags openings
+// @Accept json
+// @Produce json
+// @Param id query string true "Opening identification"
+// @Param opening body UpdateOpeningRequest true "Opening data to update"
+// @Sucess 200 {object} UpdateOpeningResponse
+// @Failure 400 {object} ErrorResponse
+// @Failure 404 {object} ErrorResponse
+// @Failure 500 {object} ErrorResponse
+// @Router /opening [put]
+
 func UpdateOpeningHandler(ctx *gin.Context) {
 	request := UpdateOpeningRequest{}
 
