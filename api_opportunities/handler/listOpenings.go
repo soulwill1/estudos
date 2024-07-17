@@ -7,6 +7,17 @@ import (
 	"github.com/soulwill1/estudos/schemas"
 )
 
+// @BasePath /api/v1
+
+// @Summary list opening
+// @Description list a new job opening
+// @Tags openings
+// @Accept json
+// @Produce json
+// @Sucess 200 {object} ListOpeningsResponse
+// @Failure 500 {object} ErrorResponse
+// @Router /opening [get]
+
 func ListOpeningsHandler(ctx *gin.Context) {
 	openings := []schemas.Opening{}
 
