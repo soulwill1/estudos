@@ -18,3 +18,6 @@ Funções básicas para criação de uma API básica em Golang utilizando o Gin.
 
 ## ---- BOOKING ----
 API para reservas de quartos em um hotel. Realizada em Golang apenas com os pacotes padrões do Go.
+
+## ---- POLL_API ----
+API para criação de enquetes. Criação do front-end em andamento.
