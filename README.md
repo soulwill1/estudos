@@ -20,7 +20,7 @@ API for room reservations in a hotel. Developed in Golang using only the standar
 ### POLL_API
 API for creating polls. Front-end development is in progress.
 
-## ---- PLANE GAME ----
+### ---- PLANE GAME ----
 This is a Game made with Go and ebitengine.
 How to play? Press enter and use the arrow keys to go to the left or right, shoot in the meteors with space key.
 How to download? Git clone, go to the plane game folder.. git mod tidy and go run cmd/main.go or just build the main.go.
