@@ -1,26 +1,24 @@
-# Projetos realizados para estudo
+## Study Projects
+In this repository, you will find solved exercises, applications, and APIs in Go.
 
-### Neste repositório você irá encontrar exercícios resolvidos, aplicações e APIs em Go.
+### API_OPPORTUNITIES
+This project includes the implementation of a complete job opportunities API, with endpoints for searching, creating, editing, and deleting opportunities, developed in Golang. The project is fully structured and documented, and it utilizes libraries such as Gin, Swagger, GORM, and SQLite. To use the API, you must have GCC installed on your machine. The Swagger documentation is fully functional and can be used to test the application.
 
-## ---- API_OPPORTUNITIES ----
-Este projeto contém a implementação de uma API de oportunidades de emprego completa, com endpoints para busca, criação, edição e exclusão de oportunidades, realizada em Golang. O projeto está todo estruturado e documentado, nele utilizei algumas bibliotecas como Gin, Swagger, GoORM e SQLite.
-Para a utilização da API você deve ter o GCC instalado na sua máquina. O Swagger está totalmente funcional e pode ser utilizado para testar a aplicação.
+- Use of Go-Gin as a router for route management
+- Implementation of SQLite as the database for the API
+- Use of GORM for database communication
+- Integration of Swagger for API documentation and testing
+- Creation of a modern package structure for project organization
+- Implementation of automated tests to ensure API quality
 
-- Utilização do Go-Gin como router para gerenciamento de rotas
-- Implementação do SQLite como banco de dados na API
-- Utilização do GoORM para a comunicação com o banco de dados
-- Integração do Swagger para documentação e teste da API
-- Criação de uma estrutura moderna de packages para organização do projeto
-- Implementação de testes automatizados para garantir a qualidade da API
+### REST_API
+Basic functions for creating a simple API in Golang using Gin.
 
-## ---- REST_API ----
-Funções básicas para criação de uma API básica em Golang utilizando o Gin.
+### BOOKING
+API for room reservations in a hotel. Developed in Golang using only the standard Go packages.
 
-## ---- BOOKING ----
-API para reservas de quartos em um hotel. Realizada em Golang apenas com os pacotes padrões do Go.
-
-## ---- POLL_API ----
-API para criação de enquetes. Criação do front-end em andamento.
+### POLL_API
+API for creating polls. Front-end development is in progress.
 
 ## ---- PLANE GAME ----
 This is a Game made with Go and ebitengine.
